@@ -68,7 +68,7 @@ def longest_slide_down(pyramid):
                     buf[t][r]=[max]
                 else:
                     buf[t][r]=currentArr
-    #print(buf[len(buf)-1])123123
+    #print(buf[len(buf)-1])123123312321321
     lastArr = len(buf)-1
     maxNum = 0
     for t in range(0,len(buf[lastArr])):
